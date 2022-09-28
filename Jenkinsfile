@@ -34,7 +34,7 @@ pipeline{
         steps {
           script {
             sh '''
-                curl -L "http://192.168.99.10/index.html"
+                curl -L "http://192.168.99.11/index.html"
                '''
           }
         }
